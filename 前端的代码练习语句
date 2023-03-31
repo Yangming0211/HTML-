@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+开发工具我使用当下流行的HBuliderx前端开发软件
+课本教材来源：轻松学web前端开发入门与实战
+相信你们也会有所收获
+<html>
+	<head>
+		<meta http-equiv="content-type" charset="utf-8"
+		  name="keywords" content="热爱前端与编程"/><!-- **渲染字符集** -->
+		<title></title>
+	</head>
+	<body>
+		<!-- 图片热区链接，见书26页练习 -->
+		<!-- <img src="https://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg" width="210" height="100" usemap="#mymap"/>
+		<map name="mymap">
+			<area shape="rect" coords="0,0,210,50" href="http://www.whup.edu.cn"/>
+			<area shape="rect" coords="0,50,210,100" href="http://www.baidu.com"/>
+		</map> -->
+		<!-- 跑马灯效果，见书27页练习 -->
+		<!-- <marquee behavior="scroll" direction="right" scrollamount="10" scrolldelay="20">
+			this yis rund size.
+		</marquee> -->
+		<!-- 网页嵌入音乐见P28 -->
+		<!-- <embed src="Hotel California.mp3" width="230" height="260" loop="3"></embed> -->
+	
+	<!-- 这是一个表格，关于什么的我们也不是很清楚
+	 关于注释你需要注意的是有些表格需要用<th>属性-->
+	<!-- 	<table width="300" border="2" align="center" bgcolor="bcake" width="60px" hegth="90px">
+			<caption color='red'>职业调查表（想象）</caption>
+			<thead>
+			<tr>
+				<td><font color='blue'>职称</font></td>
+				<td bgcolor="green">类型</td>
+				<td>爱好</td>
+			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>软件工程师</td>	
+					<td>乐观</td>
+					<td>追剧</td>
+				</tr>
+			<tr>
+				<td>律师</td>
+				<td>高冷</td>
+				<td>摄影</td>
+			</tr>
+			<tr>
+				<td>游戏开发设计师</td>	
+				<td>萝莉</td>
+				<td>旅游</td>
+			</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="3" bgcolor="red">
+						结束了
+					</th>
+				</tr>
+			</tfoot>
+		</table> -->
+	</body>
+</html>
