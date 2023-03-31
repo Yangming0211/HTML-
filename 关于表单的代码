@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我们创建一个简单的表单就好了</title>
+	</head>
+	<body>
+		<!-- 创建一个简单的表单只需要用到form标签，各类属性修饰，
+		type修饰文字或表格，我们按自己的思路来建立一个属于自己的表格吧 -->
+		<form action="reg-asp" >
+		<!-- 我们对表单进行一个修饰，并添加内容 -->
+		请输入你的真实姓名：<input type="text" name="userName" maxlength="10"/><br><br>
+		用户登录密码：<input type="password" name="pwd"/><br><br>
+		<!-- 为了更完善表格我们为用户添加一个性别属性和联系方式 -->
+		性别：
+		<br><input type="radio" name="xb" value="1"/>男
+		<input type="radio" checked name="xb" value="2"/>女
+		<br>
+		<br>
+			<!-- 这里我们添加一个出生年月的属性：select 默认项为selected -->
+		<select name="csny">
+			<option value="1988">1988
+			<option value="1989">1989
+			<option value="1990"selected >1990
+			<option value="1991">1991
+			<option value="1992">1992
+		</select>
+		</form>
+		<br>
+		<br>
+		选择一种你喜欢的水果：
+		<!-- 我们在这里设置一个单选属性：radio -->
+		<br><input type="radio" name="sg" value="bunana"/>香蕉
+		<br><input type="radio" name="sg" value="ap">苹果
+		<br><input type="radio" name="sg" value="ag">橘子
+		<br>
+		<!-- 我们这里再添加一个复选框属性：checkbox 添加一个默认恩属性:checked -->
+		你喜欢的运动是什么：
+		<br><input type="checkbox" name="yd" value="zuqiu">足球
+		<br><input type="checkbox" checked name="yd" value="lanqiu">篮球
+		<br><input type="checkbox" name="yd" value="leiqiu">垒球
+		<br>
+		<br>
+		<!-- 这里我们要创建提交属性和复位属性 -->
+		<input type="submit" value="提交"/>
+		<input type="reset" value="重置"/>
+		<!-- 我们利用maxlength限制名字字数 -->
+		
+	
+	</body>
+</html>
