@@ -1,0 +1,163 @@
+这是浏览器的页面代码。我过度使用了div标签，使得页面修改成为了一件很麻烦的事，我会在后续的项目里逐渐使它更有条理，具备代码逻辑性。
+<!DOCTYPE html>
+<!-- 文件上下差为60px左右差为20px -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>杂七杂八浏览器</title>
+        <style type="text/css">
+            #bi-zhan {
+				position: absolute;
+                top: 500px;
+				left: 20px;
+            }
+
+            #zhi-hu {
+                position: absolute;
+                top: 500px;
+                left: 140px;
+            }
+
+            #HTML {
+                position: absolute;
+                top: 500px;
+                left: 230px;
+            }
+
+            #zyk {
+                position: absolute;
+                top: 500px;
+                left: 300px;
+            }
+
+            #wz {
+                position: absolute;
+                top: 500px;
+                left: 380px;
+            }
+
+            #xxqg {
+                position: absolute;
+                top: 500px;
+                left: 460px;
+            }
+
+            #fu-zhu {
+                position: absolute;
+                top: 500px;
+                left: 530px;
+            }
+
+            #dian-ying {
+                position: absolute;
+                top: 500px;
+                left: 600px;
+            }
+
+            #gjs {
+                position: absolute;
+                top: 500px;
+                left: 680px;
+            }
+
+            #mao {
+                position: absolute;
+                top: 80px;
+                left: 560px;
+            }
+			
+            #c-yu-yan {
+                color: black;
+                position: absolute;
+                top: 550px;
+                left: 90px;
+            }
+        </style>
+    </head>
+    <body>
+			<div>
+			<div style="height: 10px;background-color: aquamarine;" ></div>
+			<div class="wm">
+			<!-- 这是关于爱奇艺图标的设置，包括背景的样式设置	 -->
+			<img a href="https://www.iqiyi.com/?vfm=f_588_wrb&fv=ac30238882b84c8c" class="aqy" src="https://img.tukuppt.com/png_preview/00/11/32/wnpEHC72bf.jpg!/fw/780"width="80px"> 
+			<img style="width: 300px; margin:5px 300px 200px;" src=" https://tse1-mm.cn.bing.net/th/id/OIP-C.g9UbVfyVZX-SfD09JcYr5QHaEK?pid=ImgDet&rs=1"/>
+			</div>	
+			<!-- 这是红色标题的设置 -->
+			<div class="hongse" style="height: 10px;background-color: indianred;"><h6>杂七杂八浏览器</h6></div>
+			
+			<!-- 此处设计一个图片样式，以便其他东西插入 -->
+			<div id="bi-zhan" >
+                <a href="https://www.bilibili.com/">
+                  <img style="width: 80px;" src="https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/b21c8701a18b87d6abbfe0e90c0828381e30fd43.jpg"> 
+				</a>
+            </div>
+            <div id="zhi-hu">
+                <a href="https://www.zhihu.com/">
+                    <img src="https://pic1.zhimg.com/v2-27dbb3eb02196db3052291f929093a70_720w.jpg?source=172ae18b" width="50px">
+                </a>
+            </div>
+            <div id="HTML">
+                <a href="https://c.runoob.com/front-end/61/">
+                    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.1454e71ff9f046225910bd88994d6327?rik=JHEvsx6%2frKwIWQ&riu=http%3a%2f%2fchpf.rongsoft.com%2fupload%2fimg%2f202003%2f6b9d93cd503246368c32ff46084fb850.jpg&ehk=L4NyakoOle3nZc4FAVyI33lr%2b%2fcgvT0wpUhX%2fQgQflM%3d&risl=&pid=ImgRaw&r=0" width="50px">
+                </a>
+            </div>
+            <div id="mao">
+                <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.XpD8S77ovPEcxXAZKYzeVQHaHa?pid=ImgDet&rs=1" width="100px"></img>
+            </div>
+            <div id="zyk">
+                <a href="https://www.bilibili.com/video/BV1gK411P7RQ?p=15&spm_id_from=pageDriver">
+                    <img src="https://uploads.wzdq.com/2020/05/12/8e05a66dce05e810845b1973497b14e1.jpg" width="50px"></img>
+         
+                </a>
+            </div>
+            <div id="xxqg">
+                <a href="https://www.xuexi.cn/xxqg.html?id=17d65f9df71b49e19d07bd10e0c91faf">
+                    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.4321993647737a4cde63dd3c97b93c03?rik=Wp7vdhL9f2ol7g&riu=http%3a%2f%2fhsy.huzfb.com%2fupdata%2f2019%2f03%2f20190319134055625.jpg&ehk=5pRf%2bZOKfm%2fhjMyDFpkXq0HJ06vvBBIpedLtavVeWKQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" width="50px"></img>
+                </a>
+            </div>
+            <div id="gjs">
+                <a href="C:\Users\16159\Desktop\05-HTML+CSS+JavaScript\HTML+css+JavaScript资料\resources">
+                    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.234cf14db5f3bbbceff38036cf336e71?rik=NCu7A%2fdSPPtA0g&riu=http%3a%2f%2fdeli-tools.com%2fupload%2f2019%2f10%2f22%2f15717134503632stxe9.jpg&ehk=J3MH8dBTXtmOOM6FfnzuIdiQbEYHp63p8rhZAIxnnps%3d&risl=&pid=ImgRaw&r=0" width="50px">
+                </a>
+            </div>
+            <div id="wz">
+                <a href="https://www.nbwz.com/">
+                    <img src="https://pic3.zhimg.com/v2-027967136e10631c82ea982e88fb193a_r.jpg" width="50px"></img>
+                </a>
+            </div>
+            <div id="dian-ying">
+                <a href="https://www.tiantk.net/channel/index29.html">
+                    <img src="https://pic4.zhimg.com/v2-e123319b7a7243790208b9c131e48a87_r.jpg" width="50px"></img>
+                </a>
+            </div>
+            <div id="fu-zhu">
+                <a href="https://developer.mozilla.org/zh-CN/docs/Learn">
+                    <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.Mm3cRuetQ7DO8XBc_Rof1wHaER?pid=ImgDet&rs=1" width="50px">
+                </a>
+            </div>
+            <div id="c-yu-yan">
+                <a href="https://www.bilibili.com/video/BV1TT4y1F7Z9?p=136&spm_id_from=pageDriver&vd_source=4d42d85d15684ef7232abecc0e97716a">
+                    <img src="https://ts1.cn.mm.bing.net/th/id/R-C.0c6b122aebd9d21908003979fc0f06d7?rik=y8ijRc4UiwhlXg&riu=http%3a%2f%2fcdn2018.ehuixue.cn%2fimages%2fehx_202009171103123855.png&ehk=hhFedzxXcXwGYAd7uYzslcGum5TGytiTm0hc4cDvdDM%3d&risl=&pid=ImgRaw&r=0" width="50px">
+                </a>
+            </div>
+			</div>
+	</div>
+    </body>
+	<style>
+	.wm{
+		background-color: beige;
+		height: 430px;
+	}
+	.aqy{
+		margin: 40px;
+		left: 40px;
+	}
+	.hongse{
+		top: 0%;
+	}
+	.#tp{
+		margin: 20px;
+	}
+	</style>
+</html>
+
