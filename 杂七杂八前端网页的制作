@@ -1,0 +1,29 @@
+这是使用的一个密码登录页，显然没有成功，后续也会逐渐完善该代码
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+		<title>杂七杂八浏览器登录页</title>
+	</head>
+	<body>
+		<form action="">
+			<tr>
+			<th>用户名：</th><input class="yonghu" type="text" name="xinming" style="width: 160px; height: 20px; border: 1px;"maxlength="6"/>
+		</tr>
+		<br><br>
+			<th>密码：</th><input class="mi" type="password" name="mima" style="width: 160px; height: 20px; border: 1px; "maxlength="8"/>
+		<br><br>
+		<input width="40px" type="submit" value="登录" class="deng" href="杂七杂八浏览器/index.html">
+		<input width="40px" type="reset" value="重置" class="deng">
+		</form>
+	</body>
+	<style>
+		.yonghu{
+			width: 400px;
+			color: rebeccapurple;}
+		.mi{
+			width: 300px;
+			
+		}
+	</style>
+</html>
