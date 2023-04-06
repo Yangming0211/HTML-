@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>简单表格设计</title>
+		<!-- 设计一个表格我们要知道三要素，表头thead，表体tbody，表尾tfoot -->
+	</head>
+	<body>
+		<table border="1" width="350">
+			<caption>学生信息表</caption>
+			<!-- 标题标签，以下给出三要素 -->
+			<thead bgcolor="red">
+				<tr><!-- 设置表格的列项 -->
+					<th>
+					学号
+					</th>
+					<th>
+					性别
+					</th>
+					<th>
+					班级
+					</th>
+					<th>
+					姓名
+					</th>
+				</tr>
+			</thead>
+			<!-- 我们 下面来设计它的表格内容部分-->
+			<tbody>
+				<tr>
+					<td bgcolor="green">
+					123
+					</td>
+					<td bgcolor="bule">
+					男
+					</td>
+					<td bgcolor="#d42665">
+					3班
+					</td>
+					<td bgcolor="#b57672">
+					阿明
+					</td>
+				</tr>
+			</tbody>
+			<!-- 设计表尾 -->
+			<tfoot>
+				<tr>
+					<td colspan="4" bgcolor="#fff344" align="center">这是关于学生的介绍</td>
+				</tr>
+			</tfoot>
+		</table>
+	</body>
+</html>
