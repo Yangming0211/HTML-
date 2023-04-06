@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>关于明的应聘表单</title>
+	</head>
+	<body>
+		<table border="0" width="560" align="cebter">
+			<caption align="center"><h2>应聘申请表</h2></caption>
+		<form action="url" method="post">
+		<thead>
+			<!-- 我们利用表格性质编辑内容 -->
+		<tr>
+			<th>姓名：</th>
+			<td><input type="text" name="uesrname" size="10"></td>
+		</tr>
+		</thead>
+		<!-- 这个我们创建他的应聘岗位，性别，年龄,学历，毕业院校，申请内容 -->
+		<tbody>
+				<th>性别：</th>
+				<td><input type="radio" name="sex" value="1" checked="checked">男
+				<input type="radio" name="sex" value="2">女
+				<input type="radio" name="sex" value="3">保密
+				</td>
+			</tr>
+			<tr>
+			
+				<th>出生年：</th>
+				<td>
+			<select name="old">
+				<option>--请选择--</option>
+				<option value="1980">1980</option>
+				<option value="1981">1981</option>
+				<option value="1982">1982</option>
+				<option value="1983">1983</option>
+				<option value="1984">1984</option>
+				<option value="1985">1985</option>
+				<option value="1986">1986</option>
+				<option value="1987">1987</option>
+				<option value="1988">1988</option>
+				<option value="1989">1989</option>
+				<option value="1990">1990</option>
+				<option value="1991">1991</option>
+				<option value="1992">1992</option>
+				<option value="1993">1993</option>
+			</select>	
+			</td>
+			</tr>
+			<tr>
+				<th>学历：</th>
+				<td>
+			<select name="end">
+				<option>--请选择--</option>
+				<option value="1">高中</option>
+				<option value="2">专科</option>
+				<option value="3">本科</option>
+				<option value="4">硕士</option>
+				<option value="5">其他</option>
+			</select>	
+			</td>
+			</tr>
+			
+		</tbody>
+		
+		<tr>
+			<th>毕业院校:</th>
+			<td><input type="text" name="shool" size="20"></td>
+		</tr>
+		<tr>
+			<th>应聘岗位:</th>
+			<td><input type="text" name="shool" size="20"></td>
+		</tr>
+		<tr>
+			<th>申请说明:</th>
+			<td><textarea name="sm"  cols="60" rows="10"></textarea></td>
+		</tr>
+		<tfoot>
+			<tr>
+				<td align="center" colspan="2" bgcolor="red">到这里我们的应聘就结束了</td>
+			</tr>
+		</tfoot>
+		</form>
+		</table>
+	</body>
+</html>
