@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+<!-- 这里我们介绍一下选择器个用法 -->
+<!-- 元素选择器--选择一个元素名称添加样式声明 -->
+<!-- id选择器一定要添加ID属性，否则无法运行 -->
+<style>
+	h2{
+		color: aqua;
+		font-size: 48px;
+	}
+</style> 
+	<h2>
+		hello world!
+	</h2>
+	<span>你好世界！</span>
+	<!-- id选择器 -->
+	<style>
+	#h3{
+		color: red;
+		font-size: 30px;
+	}	
+	</style>
+	<h3 id="h3">你好世界!</h3>
+	<span>hello world!</span>
+	<br><br><br>
+	<!-- 这是类选择器，要添加class属性，才能添加样式 -->
+	<style>
+		.lei{
+			color: yellowgreen;
+					font-size: 40px;
+			}
+	</style>
+	<span class="lei"><i>hello world!</i></span>
+	<p>这个世界很美！</p>
+	<!-- 以上三类选择器是经典三大类，基本实现样式添加 -->
+	
+	<!-- 我们下面来了解一下其他选择器 -->
+	<!-- 包含选择器 -->
+	<br><br><br>
+	<style>
+	/* 	 p span{
+			color: yellow;
+			font-size: 30px;
+		} */
+		h2 p{
+			color: sandybrown;
+			font-size: 30px;
+		}
+		/* 该选择器可以对其后代选择器中所有样式进行更改 */
+	</style>
+		<h2>杨柳岸
+		<p>你好!
+			<span>
+				你好世界！
+				<h3>
+					hello
+				</h3>
+			</span>
+		</p>
+		</h2>
+	<span>hello world!</span>
+	<br><br><br>
+	<p>-----------------------------这是一条分割线哦------------------------------------------</p>
+	<!-- 组合选择器 -->
+	<style>
+		h3,h1,h2,span{
+			color:cornflowerblue;
+			font-size: 29px;
+		}
+	</style>
+	<span>wo ai you</span>
+	<h2>hello Shijie!</h2>
+	<h3>哎呀喂</h3>
+	<h1>你好世界！</h1>
+	
+	<br><br><br><br>
+	<!-- 我们下面来认识一下父子选择器 -->
+	<!-- 我个人也认为父子选择器与包含选择器差不多，所以我们在这
+	 进行一个比较区分！-->
+	 <style>
+		 /* 父子选择器较包含选择器外观是有区别的父子选择器用一个大于符号进行区分“>” */
+		
+	h4 p{
+		color: hotpink;
+		font-size: 34px;
+	}
+	s>p{
+		color: crimson;
+		font-size: 24px;
+	}
+	 </style>
+	 <h4>王昌龄<p>李白</p></h4>
+	 <s>杜甫<h6>你好世界!<span>高山仰止</span></h6></s>
+	
+	 <i>张国焘</i><br>
+	 
+	 <b><br>苏轼</b>
+	 <br><br><br><br><br>
+	 <!-- 通用选择器 -->
+	 <!-- 该选择器只作用于第二个属性 -->
+	 <style>
+		 h4+h3{
+			 color: rosybrown;
+			 font-size: 54px;
+		 }
+	 </style>
+	  <h4>通用选择器</h4>
+	  <h3>你好世界！<u>hello</u></h3>
+	  <h1>选择器</h1><br><br><br>
+	
+	</body>
+</html>
