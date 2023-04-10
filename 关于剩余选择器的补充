@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>相邻选择器和属性选择器</title>
+	</head>
+	<body>
+		<!-- 我们再对相邻选择器做一个演示，再介绍一下属性选择器 -->
+	<!-- 属性选择器只作用在后一个选择器上，也称兄弟选择器 -->
+<!-- 	<h2>你好<span>世界</span></h2>
+	<span>world</span>
+	<h3>你好世界！</h3>
+	</body>
+	<style>
+		h2+span{
+			color: blue;
+			font-size: 40px;
+		}
+	</style>
+	<!-- 分界线 -->
+<!-- 	 只作用到第一个span标签上 
+	<h2>你好<span>世界</span></h2>
+	<span>world</span>
+	<span>你好世界！</span>
+	</body>
+	<style>
+		h2+span{
+			color: blue;
+			font-size: 40px;
+		}
+	</style> -->
+	<!-- 这个也再演示一下父类选择器和包含选择器的区别 ，父选择器只作用在子类选择器上-->
+	<h2>哈喽<span>你好啊，世界</span></h2>
+	<h2>你好<p><span>这是一个演示代码！</span></p></h2>
+	<style>
+		h2 span{
+			color: green;
+		}
+		h2>span{
+			color: red;
+			font-size: 50px;
+		}
+	</style>
+	<P align="01">我们现在在演示关于属性选择器的程序样式</P>
+	<P align="02">我们现在在演示第二个属性选择器的程序样式</P>
+	<style>
+		p[align="01"]{
+			color: gold;
+			font-size: 40px;
+		}
+		p[align="02"]{
+			color: pink;
+			font-size: 20px;
+		}
+		/* 标签名加[属性选择符]{
+			
+			样式属性：属性值；
+			样式属性：属性值；
+			……
+		}*/
+	</style>
+</html>
