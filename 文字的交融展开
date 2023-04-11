@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		body{
+			background: #000;
+		}
+		.container{
+			margin-top: 50px;
+			text-align: center;
+			background-color: #000;
+			filter: contrast(30);
+		}
+		.text{
+			font-size: 100px;
+			color: white;
+			animation: showup 3s forwards;
+		}
+		@keyframes showup {
+			from{
+				letter-spacing: -50px;
+				filter: blur(10px);
+			}
+			to{
+				letter-spacing: 10px;
+				filter: blur(2px);
+			}
+		}
+	</style>
+	<body>
+		<div class="container">
+			<span class="text">Dyui Edcation</span>
+		</div>
+	</body>
+</html>
