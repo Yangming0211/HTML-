@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>伪类、伪元素</title>
+	</head>
+	<style>
+		a :link{
+			color: antiquewhite;
+		}
+		a :visited{
+			color: blue;
+		}
+		a :active{
+			color: greenyellow;
+		}
+		input:focus{
+			background-color: yellow;
+		}
+		p :last-child{
+			font-size: 24px;
+		}
+	</style>
+	<body>
+		<p><b><a href="/css/" target="_blank">这是一个链接</a></b></p>
+	<p>
+			<b>注意：</b>
+			a :hover 必须在 a :link和a:visited之后，需要严格按顺序才能看到效果。
+	</p>
+	<p>
+			<b>注意：</b>
+			a :active 必须在a :visited之后。
+	</p>
+	<p>你可以使用"first-letter"必须在 a :hover之后。</p>
+	Frist name:<input type="text" name="fname"/><br>
+	<p>This is some text.</p>
+	<p>This is some text.</p>
+	</body>
+</html>
