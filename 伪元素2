@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			p.fl:first-lien{
+				color: aqua;
+				font-size: 49px;
+			}
+			p.Myclass:first-letter{
+				color: chocolate;
+				font-size: xx-large;
+			}
+			p.Youclass:before{
+				content: "你也好,"
+			}
+			p.Youclass:after{
+				content: "你也好！"
+			}
+		</style>
+	</head>
+	<body>
+		<p class="fl">
+			向文本的首行设置特殊样式<br/>可以使用"flrst-lien"伪元素
+		</p>
+		<p class="Mycalss">
+			可以使用first-letter"伪元素向文本的首元素设置特殊样式。
+		</p>
+		<p class="Youclass">
+			先生！
+		</p>
+	</body>
+</html>
