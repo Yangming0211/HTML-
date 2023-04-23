@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<style type="text/css">
+			.C1 ul{													/* 	//ul标签元素不适用符号 */
+				list-style:none;
+			}
+			li{/* 																//设置li的内容对背景长度高度行高进行一个设置 */
+				border:1px black solid;
+				background-color: yellow;
+				font-size: 24px;
+				width: 80px;
+				height:40px;
+				line-height: 30px;
+				text-align: center;
+				float:left;
+			}
+			.C1 ul li string{
+				visibility:hidden;/* //设置隐藏效果,但仍然占据所占位置 */
+			}
+			
+		</style>
+		<div class="C1">
+			<ul>
+				<li class="string"><a href="#">新闻</a></li>
+				<li><a href="#">纪录</a></li>
+				<li><a href="#">社会</a></li>
+				<li><a href="#">军事</a></li>
+				<li><a href="#">民生</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
