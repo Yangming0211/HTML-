@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.center{
+			float: left;
+			width: 100%;
+		}
+		.content{
+			margin: 0 210px 0 130px;
+			height: 300px;
+			background: green;
+		}
+		.left{
+			float: left;
+			width: 120px;
+			height: 300px;
+			list-style: none;
+			margin-left: -100%;
+			background: gold;
+		}
+		.right{
+			float: left;
+			width: 120px;
+			height: 300px;
+			list-style: none;
+			margin-left: -200px;
+			background: pink;
+		}
+	</style>
+	<body>
+		<div class="center">
+			<div class="content">杂七杂八网页</div>
+		</div>
+		<div class="left">
+			<ul style="border:4px skyblue double;"><br>
+				<li><a href="https://www.youku.com/channel/webhome"><img src="https://pic.ntimg.cn/file/20190920/27837611_105012076082_2.jpg" style="height: 30px;width: 30px;">优酷</a></li><br>
+				<li><a href="https://www.douyin.com/"><img src="https://img.zcool.cn/community/0144255afb8e64a801207ab475a594.jpg@1280w_1l_2o_100sh.jpg" style="height: 30px;width: 30px;">抖音</a></li><br>
+				<li><a href="https://github.com/Yangming0211/HTML-/tree/main"><img src="https://logos-marques.com/wp-content/uploads/2021/03/GitHub-Logo.png" style="height: 25px;width: 40px;">GitHub</a></li><br>
+				<li ><a href="https://c.runoob.com/front-end/61/"><img src="https://pic3.zhimg.com/v2-c1001ccccbc593a965897a2652611cfd_r.jpg" style="height: 30px;width: 25px;">开发环境台</a></li><br>
+				<li><a href="https://v.qq.com/"><img src="https://p1.ssl.qhimg.com/t0134cc5cbcd9f32e7d.png"style="height: 30px;width: 30px;">腾讯视频</a></li><br>
+			</ul>
+		</div>
+		<div class="right">
+			<ul style="border: 4px green double;">
+			<li><a href="http://www.people.com.cn/"><img src="https://ts1.cn.mm.bing.net/th/id/R-C.f5c04cbe5ab35ecc666dbcc862c5fa80?rik=BS8DecTlYVjT%2bA&riu=http%3a%2f%2fimage.pearvideo.com%2fnode%2f3539-12130719-logo.png&ehk=zOyqaAzd9r46p98IS4DznsAKy0Bd0KywgoLI5h4fjfo%3d&risl=&pid=ImgRaw&r=0" style="height: 30px;width: 30px;">新华网</a></li><br>
+			<li><a href="https://www.cnki.net/"><img src="https://ts1.cn.mm.bing.net/th/id/R-C.d80e592c9587efcf1df16cab8264cc52?rik=9B48KwrS4FxcQw&riu=http%3a%2f%2fwww.downxia.com%2fuploadfiles%2f2019%2f1210%2f20191210011338945.png&ehk=EOjR0tScJXJNZeIsRgmDBzD4EpQ3IkQ4vLaH4ia0i7U%3d&risl=&pid=ImgRaw&r=0" style="height: 30px;width: 30px;">中国知网</a></li><br>
+			<li><a href="https://blog.csdn.net/weixin_38981172/article/details/90176525"><img src="https://ts1.cn.mm.bing.net/th/id/R-C.0e5ce5e7512eaaba2248331280b57ead?rik=qoEWyltaWF13Pg&riu=http%3a%2f%2fwww.bianchengying.com%2fuploads%2f2017%2f08%2f101606476801.png&ehk=i4Dbij7jLvnISRLFauF9win3JgzAD27jo91sODeXrAM%3d&risl=&pid=ImgRaw&r=0" style="height: 30px;width: 30px;">Python</a></li><br>
+			<li><a href="https://www.51cto.com/"><img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.EOxk6m0ttsit1ecbkPBv2gAAAA?pid=ImgDet&rs=1" style="height: 30px;width: 30px;">51CTO</a></li><br>
+			<li><a href="https://www.tiantk1.com/channel/index29.html"><img src="https://pic.ntimg.cn/file/20190302/6841940_165345046080_2.jpg" style="height: 30px;width: 30px;">电影破解网站</a></li><br>
+		    </ul>
+		</div>
+	</body>
+</html>
