@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>do while循环语句</title>
+	</head>
+	<body>
+		<script>
+			var i, sum;
+			i =1;
+			sum=3;
+			do{
+				sum += i;
+				document.write(i,"    ",sum*100,"<br>");
+				document.write("i小于10不成立，但本循环只执行一次！<br><br>");
+				i++;
+			}while(i <= 10)//这里我让程序循环10次,以便观察.
+		</script>
+	</body>
+</html>
