@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+
+// 构造函数的介绍
+// function构造函数的语法格式：
+// var 函数名 = new Function(arg1,arg2,……argn,function_body(函数主体))
+
+// 函数的调用方法：
+// 函数名(arg1,arg2,arg3……，argN);
+			// var myFunction = new Function("a","b","c","return a*b/c");
+			// document.write("Function() 构造函数4*3的值: "+myFunction(4,3,2));
+			
+			
+			
+			
+			function myCilk(){
+				do{
+					username=prompt("请问您是何方神圣，报上名来","");
+				}while(username=="")
+				alert(username+",久仰大名，请多多关照！");
+			}
+		</script>
+		<input type="button" value="测试按钮" onclick="myCilk()">
+	</body>
+</html>
+
