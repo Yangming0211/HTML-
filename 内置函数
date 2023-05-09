@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>内置函数</title>
+	</head>
+	<body>
+		<script>
+			window.onload=function(){
+				str=new String("这是一个字符串对象");
+				document.write("str='这是一个字符串对象'","<br>");
+				document.writeln("str字符串长度为：",str.length,"<br>");
+				document.writeln("str的第4个字符是：",str.charAt(4),"<br>");
+				document.writeln("从2到5的字符串内容是：",str.substring(2,5),"<br>");
+				document.writeln(str.link("http://www.baidu.com"),"<br>");
+			}
+		</script>
+	</body>
+</html>
