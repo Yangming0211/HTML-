@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>数组对象</title>
+		<script>
+			window.onload=function(){
+			var mycars=new Array()			//定义数组对象
+			mycars[0]="Audi"				//给数组的第一个对赋值
+			mycars[1]="Volvo"
+			mycars[2]="BMW"
+			for (x in mycars.sort()){  //按字母大小给数组进行排序
+				document.write(mycars[x])+"<br/>")
+			}
+			
+		}
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
